@@ -14,6 +14,9 @@ public class ArrayTest {
         assertEquals(100, array.getAt(5));
     }
 
+    /**
+     * Test array index exception case.
+     */
     @Test
     public void arrayIndexOutOfBoundsException() {
         Array array = new Array(5);
