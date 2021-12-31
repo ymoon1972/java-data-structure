@@ -17,6 +17,8 @@ public class ArrayTest {
     /**
      * Test array index exception case.
      */
+
+    /* Practice Commit & Push */
     @Test
     public void arrayIndexOutOfBoundsException() {
         Array array = new Array(5);
